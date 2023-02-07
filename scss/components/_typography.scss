@@ -1,0 +1,28 @@
+
+@import '../_custom';
+
+.display-2 {
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+
+    &--intro {
+        display: inline-block; 
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    &--description {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        display: block;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.5rem;
+            display: inline-block;
+        }
+       
+    }
+}
+
