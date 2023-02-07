@@ -488,7 +488,7 @@
 }
 
 iframe.wait-autoplay {
-  opacity: 0;
+  opacity: 1;
 }
 
 .glightbox-closing .gnext,
