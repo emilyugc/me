@@ -1,0 +1,28 @@
+{
+  "name": "ugcportfolio",
+  "version": "1.0.0",
+  "description": "learning bootstrap v5 with sass for ugc portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Emily Xi",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "glightbox": "^3.2.0",
+    "postcss-cli": "^10.1.0"
+  }
+}

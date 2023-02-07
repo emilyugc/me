@@ -1,0 +1,43 @@
+.work {
+    padding: 0 0 3rem 0;
+    
+    &__video-box {
+        max-width: 100;
+        height: auto;
+        margin-bottom:5rem;
+        padding: 0.5rem;
+        text-align: center;
+        position: relative;
+        
+        video {
+            
+            height: 100%;
+            width: 100;
+        }
+
+        @media (max-width: 767px) {
+            .work__video-box {
+              height: 100px;
+              margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    &__video-box-caption {
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: .7rem;
+
+        @media (max-width: 767px) {
+            .work__video-box-caption {
+              font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .special-text {
+      font-size: .8 rem;
+    }
+  }
