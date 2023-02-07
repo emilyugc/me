@@ -10,8 +10,14 @@
         display: inline-block; 
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
-        
+       
     }
+
+    @media (max-width: 1000px) {
+        &--intro {
+          font-size: 1.5rem;
+        }
+      }
     &--description {
         margin-top: 2rem;
         font-size: 1.2rem;
@@ -22,6 +28,13 @@
             font-size: 1.5rem;
             display: inline-block;
         }
+
+        @media (max-width: 767px) {
+            .caption {
+              font-size: 1rem;
+            }
+          }
+
        
     }
 }

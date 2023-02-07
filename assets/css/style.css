@@ -21562,6 +21562,11 @@ textarea.form-control-lg {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
+@media (max-width: 1000px) {
+  .display-2--intro {
+    font-size: 1.5rem;
+  }
+}
 .display-2--description {
   margin-top: 2rem;
   font-size: 1.2rem;
@@ -21572,6 +21577,11 @@ textarea.form-control-lg {
   .display-2--description {
     font-size: 1.5rem;
     display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+  .display-2--description .caption {
+    font-size: 1rem;
   }
 }
 
